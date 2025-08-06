@@ -28,27 +28,18 @@ function Footer() {
   window.addEventListener('scroll', toggleVisible);
 
   return (
-    <div className='container-fluid bg-danger py-4'>
-      <div className="container">
-        <footer className="d-flex flex-wrap justify-content-between align-items-center">
-          <p className="col-md-4 mb-0 text-white">© 2025 Tiger Fitness</p>
+     <footer className="py-3 my-4">
+       <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+         <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Home</a></li>
+         <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Features</a></li>
+         <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Pricing</a></li>
+         <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">FAQs</a></li>
+         <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">About</a></li>
+       </ul>
+       <p className="text-center text-body-secondary">© 2025 Company, Inc</p>
+     </footer> 
+      
 
-          <Link className="navbar-brand d-flex" to={'/'}>
-            <img src={logo} style={{width:150}}/>
-          </Link>
-
-          <ul className="nav col-md-4 justify-content-end">
-            <li className="nav-item"><Link to="/" className="nav-link px-2 text-white">Home</Link></li>
-            <li className="nav-item"><Link to="/faqpage" className="nav-link px-2 text-white">FAQs</Link></li>
-            <li className="nav-item"><Link to="/privacy" className="nav-link px-2 text-white">Privacy</Link></li>
-          </ul>
-          <button id="myBtn" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}} className='btn btn-sm btn-outline-secondary'>
-            <i className="bi bi-arrow-bar-up"></i>
-          </button>
-        </footer>
-      </div>
-
-    </div>
   )
 }
 
