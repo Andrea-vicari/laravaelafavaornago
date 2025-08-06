@@ -11,7 +11,7 @@ function Menu() {
   return (
     <>
         <div className='container'>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme={count}>
+        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div className="container">
             <Link className="navbar-brand d-flex" to={'/'}>
             <img src={logo} style={{width:200}}/>
