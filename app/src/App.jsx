@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route, Navigate} from 'react-router';
 import ScrollToTop from './Components/ScrollToTop';
 import Prova from './Components/Prova';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function App() {
