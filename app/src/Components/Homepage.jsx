@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Footer from '../../Components/Common/Footer';
-import Menu from '../../Components/Common/Menu';
 
+import Menu from '../../Components/Common/Menu';
+import Footer from '../../Components/Common/Footer';
 
 function Homepage() {
   return (
