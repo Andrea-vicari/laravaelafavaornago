@@ -1,10 +1,4 @@
 import React from 'react'
-import { UseAuthContext } from "../../hooks/UseAuthContext";
-import DarkSelector from '../Common/SwitchDark'
-import TrainerMenu from '../Common/TrainerMenu';
-import UserMenu from '../Common/UserMenu';
-import LogMenu from '../Common/LogMenu';
-import { useSelector, useDispatch } from 'react-redux'
 import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
 import logo from "../../assets/images/tiger-fitness-logo.svg"
