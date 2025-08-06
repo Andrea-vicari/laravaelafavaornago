@@ -20,6 +20,16 @@ function Menu() {
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className="navbar-collapse collapse pt-2" id="navbarCollapse">
+              <ul className="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+
+              <li className="nav-item">
+                <Link className="nav-link fs-6" aria-current="page" to={'/'}>Home</Link>
+              </li>
+              
+
+
+            </ul>
+
             
          
          
