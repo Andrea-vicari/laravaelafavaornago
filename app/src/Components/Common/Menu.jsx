@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router";
 import { useLocation } from 'react-router';
-import logo from "../../assets/images/logo-prova.svg"
+import logo from "../../assets/images/logo-provaHor.svg"
 
 
 
