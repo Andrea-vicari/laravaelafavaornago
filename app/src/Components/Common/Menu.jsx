@@ -1,32 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
-import logo from "../../assets/images/tiger-fitness-logo.svg"
+import logo from "../../assets/images/logo-prova.svg"
 
 
 
 function Menu() {
-  // Dark theme logics
-  const count = useSelector((state) => state.counter.value)
 
-
-  //assigning location variable
-  const location = useLocation();
-
-  //destructuring pathname from location
-  const { pathname } = location;
-
-   //Javascript split method to get the name of the path in array
-   // Ex. splitLocation: ['', 'aboutus']
-   const splitLocation = pathname.split("/");
-
-   const {user} = UseAuthContext()
-
-    const role = useSelector((state) => state.setRole.value)
-
-
-  console.log("role FROM THE NAVBAR")
-  console.log(role)
 
   return (
     <>
@@ -40,14 +20,9 @@ function Menu() {
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className="navbar-collapse collapse pt-2" id="navbarCollapse">
-            {role == "admin" &&
-            <TrainerMenu />
-            }
-            {role == "user" &&
-            <UserMenu />
-            }
-          <LogMenu />
-          <DarkSelector />
+            
+         
+         
             </div>
         </div>
         </nav>
