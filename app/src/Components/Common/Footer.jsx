@@ -28,7 +28,7 @@ function Footer() {
   window.addEventListener('scroll', toggleVisible);
 
   return (
-    <div className='container-fluid bg-primary py-4'>
+    <div className='container-fluid bg-danger py-4'>
       <div className="container">
         <footer className="d-flex flex-wrap justify-content-between align-items-center">
           <p className="col-md-4 mb-0 text-white">© 2025 Tiger Fitness</p>
