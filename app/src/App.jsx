@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, Navigate} from 'react-router';
 import ScrollToTop from './Components/ScrollToTop';
-import Prova from './Components/Prova';
+import Homepage from './Components/Homepage';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -14,7 +14,7 @@ function App() {
     <React.Fragment>
       <ScrollToTop>
         <Routes>
-        <Route path="/" element={<Prova />} />
+        <Route path="/" element={<Homepage />} />
 
         </Routes>
         </ScrollToTop>
