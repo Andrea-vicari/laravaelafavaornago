@@ -3,7 +3,7 @@ import {useState} from 'react';
 import { Link } from "react-router";
 import logo from "../../assets/images/logo-prova.svg"
 
-function Footer() {
+function FooterTwo() {
 
   // Scroll to top function
   const [visible, setVisible] = useState(false)
@@ -52,5 +52,5 @@ function Footer() {
   )
 }
 
-export default Footer
+export default FooterTwo
 
