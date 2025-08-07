@@ -1,7 +1,7 @@
 import React from 'react'
 import CtaImg from "../assets/images/web-design-3411373_1280.jpg"
 import { useSelector } from 'react-redux'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 
 function CallToAction() {
 
