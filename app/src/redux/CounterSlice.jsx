@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-export const DarkSlice = createSlice({
+export const counterSlice = createSlice({
   name: 'counter',
   initialState: {
     value: "ligth",
@@ -16,6 +16,6 @@ export const DarkSlice = createSlice({
 })
 
 
-export const { dark, ligth } = DarkSlice.actions
+export const { dark, ligth } = counterSlice.actions
 
-export default DarkSlice.reducer
+export default counterSlice.reducer

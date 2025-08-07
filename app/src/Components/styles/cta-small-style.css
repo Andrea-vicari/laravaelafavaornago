@@ -1,0 +1,9 @@
+/*--------------------
+--Call to action  Styles--
+----------------------*/
+.bg-network{
+background-image: url(../../assets/images/bg_network_cropped.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
