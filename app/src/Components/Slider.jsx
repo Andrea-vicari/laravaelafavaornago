@@ -18,9 +18,9 @@ function Slider() {
         <img src={slide1} />
         <div className="container">
           <div className="carousel-caption text-center">
-            <h1 className='display-1'>ASCAR</h1>
-            <p className="display-5">Multipurpose React template</p>
-            <p><Link className="btn btn-lg btn-dark" to="/aboutus">Discover</Link></p>
+            <h1 className='display-1'>Trattoria</h1>
+            <p className="display-5">La Rava e La Fava</p>
+            <p><Link className="btn btn-lg btn-dark" to="/aboutus">Scopri le pizze</Link></p>
           </div>
         </div>
       </div>
