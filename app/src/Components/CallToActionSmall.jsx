@@ -1,6 +1,6 @@
 import React from 'react'
 import Resume from "../assets/pdf/Resume.pdf"
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 
 function CallToActionSmall() {
     return (
