@@ -34,8 +34,8 @@ function Footer() {
           <p className="col-md-4 mb-0 text-white">© 2024 Company, Inc</p>
 
           <Link className="navbar-brand d-flex" to={'/'}>
-            <span className='text-black fs-1'>AS<span className='text-white'>C</span>AR</span>
-            </Link>
+            <img src={logo} style={{width:200}}/>
+          </Link>
 
           <ul className="nav col-md-4 justify-content-end">
             <li className="nav-item"><Link to="/" className="nav-link px-2 text-white">Home</Link></li>
