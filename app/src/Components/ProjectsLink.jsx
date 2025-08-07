@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useSelector} from 'react-redux'
 import portfolio from '../assets/works/portfolio.json';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 
 function ProjectsLink() {
