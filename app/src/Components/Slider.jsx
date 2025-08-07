@@ -1,7 +1,7 @@
 
 import React from 'react'
-import slide1 from "../assets/images/stripes_bg.jpg"
-import slide2 from "../assets/images/NetworkBackground.jpg"
+import slide1 from "../assets/images/slide_pizza.jpg"
+import slide2 from "../assets/images/slide2_pizza.jpg"
 import { Link } from 'react-router'
 
 function Slider() {
