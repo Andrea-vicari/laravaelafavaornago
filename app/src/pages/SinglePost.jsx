@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router';
 import { useSelector } from 'react-redux'
 import newsList from '../assets/news/news.json';
 
