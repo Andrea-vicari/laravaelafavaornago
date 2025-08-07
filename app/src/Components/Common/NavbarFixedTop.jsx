@@ -4,6 +4,7 @@ import SocialMenu from '../Common/SocialMenu';
 import { useSelector, useDispatch } from 'react-redux'
 import { Link } from "react-router";
 import { useLocation } from 'react-router';
+import logo from "../../assets/images/logo-provaHor.svg"
 
 
 function NavbarFixedTop() {
@@ -26,7 +27,7 @@ function NavbarFixedTop() {
         <nav className="navbar navbar-expand-md bg-body-tertiary fixed-top" data-bs-theme={count}>
         <div className="container">
             <Link className="navbar-brand d-flex" to={'/'}>
-            <span className='fs-1'>AS<span className='text-primary'>C</span>AR</span>
+              <img src={logo} style={{width:200}}/>
             </Link>
             <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
