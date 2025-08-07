@@ -1,6 +1,7 @@
 import React from 'react'
 import {useState} from 'react';
 import { Link } from "react-router";
+import logo from "../../assets/images/logo-prova.svg"
 
 function Footer() {
 
