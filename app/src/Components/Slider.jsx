@@ -2,7 +2,7 @@
 import React from 'react'
 import slide1 from "../assets/images/stripes_bg.jpg"
 import slide2 from "../assets/images/NetworkBackground.jpg"
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 
 function Slider() {
   return (
