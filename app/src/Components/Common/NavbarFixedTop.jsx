@@ -2,8 +2,8 @@ import React from 'react'
 import DarkSelector from '../Common/SwitchDark'
 import SocialMenu from '../Common/SocialMenu';
 import { useSelector, useDispatch } from 'react-redux'
-import { Link } from "react-router-dom";
-import { useLocation } from 'react-router-dom';
+import { Link } from "react-router";
+import { useLocation } from 'react-router';
 
 
 function NavbarFixedTop() {
